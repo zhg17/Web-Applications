@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>To-Do List</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-welcome
+    <h1>To-Do List</h1>
+    <div id="input-section">
+        <input id="input-task" type="text">
+        <button id="add-task-button">Enter</button>
+    </div>
+    <div id="tasks">
+        <ul id="task-list">
+            <li>
+                <input class="checkbox-input" type="checkbox">
+                <span class="task">Email technical recruiter</span>
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li>
+                <input class="checkbox-input" type="checkbox">
+                <span class="task">Finish up to-do list</span>
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li>
+                <input class="checkbox-input" type="checkbox">
+                <span class="task">Feed the dog and take him to the park</span>
+                <button class="delete-btn">Delete</button>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
